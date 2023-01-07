@@ -1,3 +1,5 @@
+// ********  String is immutable .....we make string but we cun't change string  *********
+
 //String length property 
 let n = "Rahul";
 console.log(n.length);
@@ -35,4 +37,27 @@ const string4 = new String("A String object");
 console.log(string4);
 
 // Character access
-// there are two types of method that helps us to access an ch
+// There are two ways to access an individual character in a string. The first is the charAt() method:
+let friend = "Sayantan";
+console.log(friend.charAt(0));
+// another way
+console.log(friend[1]);
+
+
+// comprasion between two string
+const a = "a";
+const b = "b";
+if (a < b) {
+    // true
+    console.log(`${a} is less than ${b}`);
+} else if (a > b) {
+    console.log(`${a} is greater than ${b}`);
+} else {
+    console.log(`${a} and ${b} are equal.`);
+}
+
+// use a for loop to print a string
+let str = "rahuldas";
+for (i = 0; i < str.length; i++) {
+    console.log(str[i]);
+}
